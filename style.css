@@ -1,0 +1,27 @@
+/**
+*Theme Name: <THEMENAME>
+*Theme URI: http://google.com
+*Author: dima23ua
+*Text Domain: <TEXTDOMAIN>
+*Author URI: http://google.com
+*Version: 1.0.0
+*Description: 
+License URI:   
+License:
+*Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+*/
+
+.aligncenter {
+   margin: 10px auto;
+   display: block;
+}
+
+.alignright {
+   float: right;
+   margin: 0 0 20px 20px;
+}
+
+.alignleft {
+   float: left;
+   margin: 0 20px 20px 0;
+}

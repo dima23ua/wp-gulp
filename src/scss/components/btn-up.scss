@@ -1,0 +1,26 @@
+.btn-up {
+   position: fixed;
+   right: 30px;
+   bottom: 50px;
+   background-color: transparent;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   border: 1px solid var(--blue);
+   transition: all .3s ease 0s;
+ }
+
+ .btn-up::before {
+   content: "";
+    width: 20px;
+    height: 28px;
+    background: url('../img/svg/arrow-to-top.svg')no-repeat center top/cover;
+ }
+
+ .btn-up__hide {
+   display: none;
+ }

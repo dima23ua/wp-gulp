@@ -1,0 +1,15 @@
+{
+   "burger": {
+      "scope": "html",
+      "prefix": "d-burger",
+      "body": [
+         "<!-- burger menu -->",
+         "<div class=\"burger\">",
+         "   <a href=\"$1\" aria-label=\"Открыть мобильное меню\" class=\"burger__menu popup-link\">",
+         "      <span></span>",
+         "   </a>",
+         "</div>"
+      ],
+      "description": "Snippet for burger btn"
+   }
+}

@@ -1,0 +1,141 @@
+// fonts
+@import "fonts";
+@import "libs";
+
+:root {
+   --main: #131321;
+   --white: #fff;
+}
+
+*,
+::before,
+::after {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+html,
+body {
+   width: 100%;
+   margin: 0 auto;
+   box-sizing: border-box;
+   overflow-x: hidden;
+   font-family: "MontserratAlternates", sans-serif;
+   overflow-anchor: none;
+   font-size: 16px;
+   scroll-behavior: smooth;
+}
+
+html.lock {
+   overflow: hidden;
+}
+
+img,
+svg {
+   max-width: 100%;
+   display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+
+h1 {
+   font-size: calc(24px + 16 * (100vw / 1320));
+   line-height: 125%;
+   font-weight: 400;
+}
+
+a {
+   text-decoration: none;
+}
+
+p {
+   margin: 0;
+   padding: 0;
+}
+
+ul,
+li,
+ol {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+input,
+button,
+textarea {
+   font: inherit;
+   border: none;
+   outline: none;
+   margin: 0;
+   padding: 0;
+   background: none;
+   min-width: 10px;
+}
+
+textarea {
+   resize: none;
+}
+
+label {
+   margin: 0;
+   padding: 0;
+   font-size: 12px;
+}
+
+select {
+   outline: none;
+   border: none;
+   background: none;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+}
+
+.wrapper {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+}
+
+.container {
+   width: 100%;
+   max-width: 1320px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+.main {
+   display: flex;
+   flex-direction: column;
+   flex: 1 1 auto;
+}
+
+// components
+@import "components/header";
+@import "components/burger";
+// @import "components/btn-up";
+
+@import "index/hero";
+
+@import 'components/error';
+
+@import "components/footer";
+
+@import "popup/mobile-menu";
+
+// responsive
+@import "adaptive";

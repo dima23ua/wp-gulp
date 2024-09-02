@@ -1,0 +1,211 @@
+   {
+      "svguse": {
+         "scope": "html",
+         "prefix": "d-use",
+         "body": [
+            "<svg class=\"\" fill=\"currentColor\">",
+            "  <use xlink:href=\"img/sprite.svg#$1\"></use>",
+            "</svg>"
+         ],
+         "description": "Snippet for use svg sprites"
+      },
+      "burger": {
+         "scope": "html",
+         "prefix": "d-burger",
+         "body": [
+            "<!-- burger menu -->",
+            "<div class=\"burger\">",
+            "   <a href=\"$1\" aria-label=\"Открыть мобильное меню\" class=\"burger__menu popup-link\">",
+            "      <span></span>",
+            "   </a>",
+            "</div>"
+         ],
+         "description": "Snippet for burger btn"
+      },
+      "checkbox": {
+         "scope": "html",
+         "prefix": "d-checkbox",
+         "body": [
+            "<!-- checkbox -->",
+            "<div class=\"checkbox\">",
+            "  <input type=\"checkbox\" class=\"checkbox__input\">",
+            "  <label class=\"checkbox__label\">$1</label>",
+            "</div>"
+         ],
+         "description": "Snippet for custom checkbox"
+      },
+      "navigation": {
+         "scope": "html",
+         "prefix": "d-nav",
+         "body": [
+            "<!-- navigation menu -->",
+            "   <nav class=\"navigation__wrapper\">",
+            "      <ul class=\"navigation__list\">",
+            "         <li>",
+            "            <a href=\"#\"></a>",
+            "         </li>",
+            "      </ul>",
+            "   </nav>"
+         ],
+         "description": "Snippet for navigation"
+      },
+      "social": {
+         "scope": "html",
+         "prefix": "d-social",
+         "body": [
+            "<ul class=\"social\" title=\"$1\">",
+            "  <li class=\"social__item\">",
+            "     <a href=\"#\" target=\"_blank\" class=\"social__link social__link_facebook\" aria-label=\"Наша страничка в Фейсбук\"></a>",
+            "  </li>",
+            "  <li class=\"social__item\">",
+            "     <a href=\"#\" target=\"_blank\" class=\"social__link social__link_instagram\" aria-label=\"Наша страничка в Инстанрам\"></a>",
+            "  </li>",
+            "  <li class=\"social__item\">",
+            "     <a href=\"#\" target=\"_blank\" class=\"social__link social__link_telegram\" aria-label=\"Наша канал в Телеграм\"></a>",
+            "  </li>",
+            "  <li class=\"social__item\">",
+            "     <a href=\"#\" target=\"_blank\" class=\"social__link social__link_viber\" aria-label=\"Наша канал в Вайбер\"></a>",
+            "  </li>",
+            "</ul>"
+         ],
+         "description": "Snippet for social links"
+      },
+      "form": {
+         "prefix": "d-form",
+         "body": [
+            "<!-- Form -->",
+            "<form action=\"#\" method=\"post\" class=\"form\" id=\"form\">",
+            "    ",
+            "   <!-- form input --> ",
+            "   <div class=\"form__label-block\">",
+            "      <label class=\"form__label\"></label>",
+            "      <input class=\"form__input\" placeholder=\"Имя\">",
+            "   </div>",
+            "    ",
+            "    <!-- button -->",
+            "   <div class=\"button\">",
+         "         <button aria-label=\"\" type=\"\" class=\"button__link\">Кнопка</button>",
+         "      </div>",
+            "</form>"
+         ],
+         "description": "Snippet for basic form"
+      },
+      "swiper": {
+         "prefix": "d-swiper",
+         "body": [
+            "<!-- slider swiper -->",
+            "<div class=\"slider swiper-content\">",
+            "   <div class=\"slider__wrapper swiper-wrapper\">",
+            "      <div class=\"slider__slide swiper-slide\">",
+            "",
+            "      </div>",
+            "   </div>",
+            "   <!-- navigation -->",
+            "   <div class=\"swiper-button-prev\"></div>",
+            "   <div class=\"swiper-button-next\"></div>",
+            "   <!-- pagination -->",
+            "   <div class=\"swiper-pagination\"></div>",
+            "</div>"
+         ],
+         "description": "Snippet for basic swiper structure"
+      },
+      "picture": {
+         "prefix": "d-picture",
+         "body": [
+            "<img src=\"@img\"$1\" width=\"$2\" height=\"$3\" alt=\"$4\">"
+         ],
+         "description": "Snippet for basic logo structure"
+      },
+      "svgimg": {
+         "scope": "html",
+         "prefix": "g-svgimg",
+         "body": [
+            "<img loading=\"lazy\" src=\"$1.$2\" class=\"image\" width=\"$4\" height=\"$5\" alt=\"$3\">"
+         ],
+         "description": "Snippet for simple html svg images"
+      },
+      "tooltip": {
+         "prefix": "d-tooltip",
+         "body": [
+            "<span class=\"tooltip\">",
+            "  <button class=\"tooltip__btn\" aria-describedby=\"$1\">$2</button>",
+            "  <span class=\"tooltip__txt\" role=\"tooltip\" id=\"$1\">",
+            "    <span class=\"visually-hidden\">Тултип: </span>",
+            "    $3",
+            "  </span>",
+            "</span>"
+         ],
+         "description": "Snippet for tooltip"
+      },
+      "tabs": {
+         "prefix": "d-tabs",
+         "body": [
+            "<div class=\"tabs\" data-tabs=\"$1\">",
+            "  <ul class=\"tabs__nav\">",
+            "    <li class=\"tabs__nav-item\"><button class=\"tabs__nav-btn\" type=\"button\">$2</button></li>",
+            "    <li class=\"tabs__nav-item\"><button class=\"tabs__nav-btn\" type=\"button\">$3</button></li>",
+            "    <li class=\"tabs__nav-item\"><button class=\"tabs__nav-btn\" type=\"button\">$4</button></li>",
+            "  </ul>",
+            "  <div class=\"tabs__content\">",
+            "    <div class=\"tabs__panel\">$5</div>",
+            "    <div class=\"tabs__panel\">$6</div>",
+            "    <div class=\"tabs__panel\">$7</div>",
+            "  </div>",
+            "</div>"
+         ],
+         "description": "Snippet for basic tabs structure"
+      },
+      "button": {
+         "prefix": "d-button",
+         "body": [
+            "<!-- Button -->",
+            "<div class=\"button\">",
+            "  <button aria-label=\"\" type=\"\" class=\"button__link\">Кнопка</button>",
+            "</div>",
+            "<!-- Button - end -->"
+         ],
+         "description": "Snippet for basic button structure"
+      },
+      "btn-up": {
+         "prefix": "d-btn-up",
+         "body": [
+            "<!-- Button Up -->",
+            "<div class=\"btn-up btn-up__hide\"></div>"
+         ],
+         "description": "Snippet for basic button structure"
+      },
+      "popup": {
+         "prefix": "d-popup",
+         "body": [
+            "<!-- popup -->",
+            "<div class=\"popup-wrapper\" id=\"...\">",
+            "   <div class=\"popup-wrapper__container\">",
+            "                        ",
+            "     <div class=\"popup popup-container\">",
+            "                       ",
+            "         <!-- close popup -->         ",
+            "         <div class=\"popup__close\">",
+            "            <a href=\"#header\" class=\"popup__close-link close-popup\"></a>",
+            "         </div>",
+            "                       ",
+            "        <!-- popup content -->         ",
+            "                       ",
+            "      </div>",
+            "                       ",
+            "   </div>",
+            "</div>"
+         ],
+         "description": "Snippet for basic popup structure"
+      },
+
+      "primary-btn": {
+         "prefix": "d-primary-btn",
+         "body": [
+            "<!-- Primary Btn -->",
+            "<div class=\"primary-btn\">",
+            "  <a href=\"#\" role=\"button\" aria-label=\"\" class=\"primary-btn__link\">$1</a>",
+            "</div>"
+         ],
+         "description": "Snippet for basic primary button structure"
+      }
+   }
